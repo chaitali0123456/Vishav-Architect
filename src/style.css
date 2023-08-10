@@ -1,0 +1,137 @@
+.login{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    height: 100vh;
+    /* margin-left: 300px; */
+    width: 100%;
+
+}
+.login-form{
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+.login-form h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    color: orange;
+    margin-right: 200px;
+   
+} 
+.vishv-logo{
+    display: flex;
+}
+.login-form h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 150px;
+}
+.login-form p {
+    color: white;
+    text-align: center;
+    margin-left: 150px;
+} 
+.login-form h4 {
+    color: white;
+    margin-right: 250px;
+    font-size: 12px;
+    ;
+}
+.login-form h3{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.second-loginimg img{
+    height:500px;
+    width: 70%;
+    margin-left: 200px;
+    border-radius: 10%;
+}
+.login-logo{
+    height: 40px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+form{
+    padding-top: 10px;
+    margin-left: 90px;
+}
+.form1{
+    padding: 5px 5px ;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+.login-form button{
+    padding: 10px 10px;
+    border: 2px solid white;
+    margin-top: 20px;
+    margin-left: 90px;
+    padding-left: 120px;
+    padding-right: 150px;
+    background-color: orange;
+    cursor: pointer;
+}
+
+/* .......HomePage.......... */
+.home{
+    display: block;
+}
+.layout{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.login-header{
+    padding-top: 5px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-header h1{
+    color: rgb(216, 184, 1);
+    font-family: 'Merriweather', serif;
+    font-weight: 200;
+}
+
+/* .......ProjectPage........ */
+#project{
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+#project Button{
+    /* margin-left: 85%; */
+    padding-bottom: 20px;
+    /* background-color: orange; */
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-size: 15px;
+}
+/* ........CreateButton........... */
+.required{
+    color: red;
+    padding:5px;
+}
+label{
+    /* color: aquamarine; */
+    display: block;
+    padding: 10px 0px;
+    padding-bottom: 5px;
+    /* margin: 5px; */
+}
+
+
+
+
+.edit-btn{
+    background-color: aqua;
+}
