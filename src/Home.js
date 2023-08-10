@@ -11,7 +11,7 @@ import logo from './image/login page logo.png'
 import { Layout, Menu, Button, theme} from 'antd';
 import Projects from './components/Projects';
 // import EditForm from './EditForm';
-// import Contacts from './components/Contacts';
+import Contacts from './components/Contacts';
 // import CreateForm from './CreateForm';
 
 
@@ -25,18 +25,8 @@ const Home = () => {
     token: { colorBgContainer },
   } = theme.useToken();
 
-  // const [editbtn,setEdit] = useState(false);
-  // const handleEdit= () =>{
-  //   setEdit(true)
-  //   console.log("second edit function");
-  // }
-  // if (editbtn === true) {
-  //   return(
-  //     <div>
-  //       <EditForm handleEdit={handleEdit}/>
-  //     </div>
-  //   );
-  // }
+  const[contact,setContact] = useState(false);
+
   return (
     <Layout>
       <Sider trigger={null} collapsible collapsed={collapsed} style={{backgroundColor:'#202020'}}>
@@ -51,13 +41,13 @@ const Home = () => {
           items={[
             {
               key: '1',
-              icon: <UserOutlined />,
+              icon: <UserOutlined onClick={()=>setContact(false)}/>,
               label: 'Projects',
               
             },
             {
               key: '2',
-              icon: <ContactsOutlined />,
+              icon: < ContactsOutlined  onClick={()=>setContact(true)}/>,
               label: 'Contacts',
             },
             {
@@ -88,9 +78,9 @@ const Home = () => {
 
           </div>
           <div className="content">
-            {/* <CreateForm/> */}
-            <Projects />
-            {/* <Contacts/> */}
+            {
+              contact?<Contacts/>:<Projects/>
+            }
             
           </div>
       </div>

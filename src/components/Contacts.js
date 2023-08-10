@@ -64,9 +64,14 @@ export default function Contact() {
   ];
 
   return (
-    <div id='contact'>
+    <div id='contact'
+        style={{
+          margin:'100px',
+          marginRight:'100px'
+        }}
+    >
       <div>
-        <h1>List of All Projects</h1>
+        <h1>List of Users</h1>
       </div>
        <Table dataSource={dataSource} columns={columns} />
     </div>
