@@ -18,7 +18,7 @@ const normFile = (e) => {
 
 const CreateForm = () => {
 
-    const [componentDisabled, setComponentDisabled] = useState(false);
+    // const [componentDisabled, setComponentDisabled] = useState(false);
   return (
     <div className='creat-btn'>
        <Form

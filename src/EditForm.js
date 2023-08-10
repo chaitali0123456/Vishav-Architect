@@ -37,7 +37,7 @@ const CreateForm = () => {
         labelCol={{ span: 4 }}
         wrapperCol={{ span: 14 }}
         layout="horizontal"
-        disabled={componentDisabled}
+        // disabled={componentDisabled}
         style={{width:'800px'}}
 
       >
