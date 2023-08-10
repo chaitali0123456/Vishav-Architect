@@ -7,7 +7,7 @@ import {  Space} from 'antd';
 import EditForm from '../EditForm';
 import tableimg from '../image/tableimg.png';
 import DeleteForm from '../DeleteForm';
-import { render } from '@testing-library/react';
+// import { render } from '@testing-library/react';
 
 
 export default function Project(props) {
